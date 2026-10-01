@@ -41,14 +41,24 @@ const Hero: React.FC = () => {
                             </ul>
                         </div>
 
-                        <a
-                            href="https://www.linkedin.com/in/Aman-Yadav77/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            className="resume-btn"
-                        >
-                            <i className="fa-solid fa-eye"></i> Connect / Resume
-                        </a>
+                        <div className="resume-btn-group">
+                            <a
+                                href="/resume_backend.pdf"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                className="resume-btn"
+                            >
+                                <i className="fa-solid fa-file-pdf"></i> Backend Resume
+                            </a>
+                            <a
+                                href="/resume_automotive_ml.pdf"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                className="resume-btn resume-btn-secondary"
+                            >
+                                <i className="fa-solid fa-car"></i> Automotive ML Resume
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <img src={heroImg} alt="Aman Yadav" />

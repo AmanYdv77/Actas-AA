@@ -793,20 +793,6 @@ hr {
   box-shadow: 0 8px 32px var(--glow-strong);
 }
 
-.resume-btn-secondary {
-  background: rgba(30, 41, 59, 0.7);
-  border: 1px solid var(--border);
-  color: var(--text-primary);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-.resume-btn-secondary:hover {
-  background: rgba(49, 65, 88, 0.85);
-  border-color: var(--primary);
-  color: #fff;
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
-}
 
 /* HERO IMAGE */
 .home img {

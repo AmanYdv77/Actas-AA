@@ -9,13 +9,13 @@ const Hero: React.FC = () => {
                     <div className="info-home">
                         <h1>Aman Yadav</h1>
                         <h3>
-                            • Backend Engineer <br />
-                            • Distributed Systems <br />
+                            • Backend & Distributed Systems <br />
+                            • Applied ML & Automotive Telemetry <br />
                             • Ex-Intern @ Maruti Suzuki
                         </h3>
                         <div className="info-p">
-                            <p>I engineer high-concurrency backend services, asynchronous queues, and data platforms.</p>
-                            <p>Hands-on production experience with FastAPI, Django, Redis/Celery, Docker, and ML pipelines.</p>
+                            <p>Architecting high-concurrency backend services, resilient async task pipelines, and vehicle telemetry ML models.</p>
+                            <p>Hands-on production experience with FastAPI, Django, Redis, Celery, PyTorch, Docker, and industrial sensor data.</p>
                         </div>
                         <div className="info-p2">
                             <p><i className="fa-solid fa-location-dot"></i> India</p>
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
                                 href="/resume_automotive_ml.pdf"
                                 target="_blank"
                                 rel="noreferrer noopener"
-                                className="resume-btn resume-btn-secondary"
+                                className="resume-btn"
                             >
                                 <i className="fa-solid fa-car"></i> Automotive ML Resume
                             </a>

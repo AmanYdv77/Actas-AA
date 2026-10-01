@@ -9,6 +9,7 @@ interface NavItem {
 const navItems: NavItem[] = [
     { id: 'home', label: 'Home', icon: 'fa-solid fa-circle-user' },
     { id: 'about', label: 'About', icon: 'fa-regular fa-address-card' },
+    { id: 'experience', label: 'Experience', icon: 'fa-solid fa-briefcase' },
     { id: 'project', label: 'Projects', icon: 'fa-regular fa-folder-open' },
     { id: 'service', label: 'Skills', icon: 'fa-solid fa-code' },
     { id: 'contact', label: 'Contact', icon: 'fa-regular fa-envelope' },

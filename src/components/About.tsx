@@ -5,7 +5,7 @@ const About: React.FC = () => {
         <section className="about reveal" id="about">
             <div className="about-info">
                 <div className="img-about">
-                    <img src={aboutImg} alt="Ayush Tandon" />
+                    <img src={aboutImg} alt="Aman Yadav" />
                 </div>
                 <div className="info-text">
                     <h5>@AmanYdv77</h5>
@@ -20,7 +20,7 @@ const About: React.FC = () => {
                         specializing in <span className="magnify-text" data-text="Backend Engineering">Backend Engineering</span>, <span className="magnify-text" data-text="Distributed Systems">Distributed Systems</span>, and <span className="magnify-text" data-text="Applied ML">applied machine learning</span>. My work centers on architecting
                         high-concurrency, data-driven platforms backed by robust asynchronous processing and clean API design.<br />
                         <br />
-                        During my internship at <span className="magnify-text" data-text="Maruti Suzuki">Maruti Suzuki</span>, I developed industrial-grade vehicle telematics pipelines, handling large-scale sensor feeds, trip segmentation, and driver analytics. I am the architect of <span className="magnify-text" data-text="EduPulse">EduPulse</span> (an academic early-warning & student performance forecasting platform) and <span className="magnify-text" data-text="PingGuard">PingGuard</span> (a distributed uptime & keep-alive monitoring engine using <span className="magnify-text" data-text="FastAPI">FastAPI</span>, <span className="magnify-text" data-text="Redis">Redis</span>, and <span className="magnify-text" data-text="Celery">Celery</span>).<br />
+                        During my internship at <span className="magnify-text" data-text="Maruti Suzuki">Maruti Suzuki</span>, I developed industrial-grade vehicle telematics pipelines, handling large-scale sensor feeds, trip segmentation, and driver analytics. I am the architect of <span className="magnify-text" data-text="EduPulse">EduPulse</span> (an academic early-warning & student performance forecasting platform) and <span className="magnify-text" data-text="PingGuard">PingGuard</span> (a distributed uptime monitoring engine using <span className="magnify-text" data-text="FastAPI">FastAPI</span>, <span className="magnify-text" data-text="Redis">Redis</span>, and <span className="magnify-text" data-text="Celery">Celery</span>).<br />
                         <br />
                         I am passionate about applying mathematical rigor to real-world engineering challenges, optimizing complex computational systems, and delivering production-ready software.
                     </p>

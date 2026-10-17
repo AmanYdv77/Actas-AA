@@ -43,20 +43,12 @@ const Hero: React.FC = () => {
 
                         <div className="resume-btn-group">
                             <a
-                                href="/resume_backend.pdf"
+                                href="/resume.pdf"
                                 target="_blank"
                                 rel="noreferrer noopener"
                                 className="resume-btn"
                             >
-                                <i className="fa-solid fa-file-pdf"></i> Backend Resume
-                            </a>
-                            <a
-                                href="/resume_automotive_ml.pdf"
-                                target="_blank"
-                                rel="noreferrer noopener"
-                                className="resume-btn"
-                            >
-                                <i className="fa-solid fa-car"></i> Automotive ML Resume
+                                <i className="fa-solid fa-file-pdf"></i> Resume
                             </a>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
-import eduPulseImg from '../../images/edupulse.jpg'
 import pingGuardImg from '../../images/pingguard.jpg'
+import gateForgeImg from '../../images/gateforge.jpg'
+import eduPulseImg from '../../images/edupulse.jpg'
 import evLifespanImg from '../../images/ev_battery_lifespan.jpg'
-import carPriceImg from '../../images/car_price_predictor.jpg'
 
 interface ProjectTag {
     label: string
@@ -27,6 +27,30 @@ interface Project {
 const projects: Project[] = [
     {
         id: 1,
+        image: pingGuardImg,
+        imageAlt: 'PingGuard - Distributed Uptime Monitoring Engine',
+        title: 'PingGuard',
+        description:
+            'Self-hosted distributed HTTP uptime monitoring engine built with asynchronous Celery workers, Redis broker, and PostgreSQL persistence. Decoupled API control plane from probing workers using row-level locking (FOR UPDATE SKIP LOCKED) and pre-flight DNS pinning to prevent SSRF and TOCTOU rebinding attacks.',
+        tags: [{ label: 'FastAPI' }, { label: 'Redis' }, { label: 'Celery' }, { label: 'PostgreSQL' }, { label: 'Docker' }, { label: 'AsyncIO' }],
+        links: [
+            { href: 'https://github.com/AmanYdv77/PingGuard', icon: 'fab fa-github', label: 'GitHub' },
+        ],
+    },
+    {
+        id: 2,
+        image: gateForgeImg,
+        imageAlt: 'GateForge - High-Throughput API Gateway & Rate Limiting Engine',
+        title: 'GateForge',
+        description:
+            'High-throughput API gateway & distributed rate-limiting engine featuring sub-millisecond edge authentication, atomic Redis Lua sliding-window rate limiting, non-blocking telemetry queuing, and Prometheus observability.',
+        tags: [{ label: 'FastAPI' }, { label: 'Redis' }, { label: 'Lua' }, { label: 'PostgreSQL' }, { label: 'Docker' }, { label: 'Prometheus' }],
+        links: [
+            { href: 'https://github.com/AmanYdv77/GateForge', icon: 'fab fa-github', label: 'GitHub' },
+        ],
+    },
+    {
+        id: 3,
         image: eduPulseImg,
         imageAlt: 'EduPulse Platform',
         title: 'EduPulse',
@@ -38,40 +62,15 @@ const projects: Project[] = [
         ],
     },
     {
-        id: 2,
-        image: pingGuardImg,
-        imageAlt: 'PingGuard Monitoring',
-        title: 'PingGuard',
-        description:
-            'Self-hosted distributed HTTP uptime monitoring engine built with asynchronous Celery workers, Redis broker, and PostgreSQL persistence. Decoupled API control plane from probing workers using row-level locking (FOR UPDATE SKIP LOCKED) and pre-flight DNS pinning to prevent TOCTOU rebinding attacks.',
-        tags: [{ label: 'FastAPI' }, { label: 'Redis' }, { label: 'Celery' }, { label: 'PostgreSQL' }, { label: 'AsyncIO' }],
-        links: [
-            { href: 'https://github.com/AmanYdv77/PingGuard', icon: 'fab fa-github', label: 'GitHub' },
-        ],
-    },
-    {
-        id: 3,
+        id: 4,
         image: evLifespanImg,
-        imageAlt: 'EV-Lifespan Battery RUL Prediction',
-        title: 'EV-Lifespan',
+        imageAlt: 'EV Life - Battery RUL Prediction Platform',
+        title: 'EV Life',
         description:
             'End-to-end deep learning prognostic platform estimating lithium-ion battery Remaining Useful Life (RUL) from multi-channel sensor telemetry using hybrid 1D-CNN + Stacked LSTM networks. Achieved an RMSE of 19.40 cycles with < 15ms inference latency, integrating voltage-current-temperature spatial feature extraction with temporal sequence modeling.',
         tags: [{ label: 'PyTorch' }, { label: 'FastAPI' }, { label: 'React' }, { label: '1D-CNN + LSTM' }, { label: 'Docker' }],
         links: [
             { href: 'https://github.com/AmanYdv77/ev-lifespan', icon: 'fab fa-github', label: 'GitHub' },
-        ],
-    },
-    {
-        id: 4,
-        image: carPriceImg,
-        imageAlt: 'Car Price Predictor Application',
-        title: 'Car Price Predictor',
-        description:
-            'Machine learning valuation engine accurately predicting market resale prices for pre-owned vehicles based on mileage, manufacturing year, brand, and vehicle specifications. Implemented end-to-end feature pipelines with categorical target encoding, outlier clipping, and gradient-boosted regression to deliver real-time interactive valuation appraisals.',
-        tags: [{ label: 'Python' }, { label: 'Scikit-Learn' }, { label: 'Pandas' }, { label: 'Machine Learning' }],
-        links: [
-            { href: 'https://car-price-predictor-8oj4.onrender.com', icon: 'fas fa-external-link-alt', label: 'Live App' },
-            { href: 'https://github.com/AmanYdv77/car-price-predictor', icon: 'fab fa-github', label: 'GitHub' },
         ],
     },
 ]

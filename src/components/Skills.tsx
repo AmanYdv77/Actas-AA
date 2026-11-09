@@ -29,13 +29,14 @@ const serviceCards: ServiceCard[] = [
         id: 2,
         icon: 'fas fa-network-wired',
         title: 'Distributed Systems',
-        description: 'Implementing asynchronous background worker queues, task scheduling, and distributed uptime monitoring.',
+        description: 'Implementing asynchronous background worker queues, sliding-window rate limiters, and distributed uptime monitoring.',
         tags: [
             { label: 'Celery' },
             { label: 'Redis' },
+            { label: 'Lua' },
+            { label: 'Rate Limiting' },
             { label: 'AsyncIO' },
             { label: 'Task Queues' },
-            { label: 'Heartbeat Monitoring' },
         ],
     },
     {
@@ -81,13 +82,14 @@ const serviceCards: ServiceCard[] = [
         id: 6,
         icon: 'fas fa-terminal',
         title: 'DevOps & Tooling',
-        description: 'Containerized deployment environments, automated CI/CD validation pipelines, and version control.',
+        description: 'Containerized deployment environments, automated CI/CD validation pipelines, and system observability.',
         tags: [
             { label: 'Docker' },
+            { label: 'Prometheus' },
             { label: 'Git & GitHub' },
             { label: 'CI/CD Pipelines' },
             { label: 'Linux' },
-            { label: 'Pre-commit' },
+            { label: 'pytest' },
         ],
     },
 ]
